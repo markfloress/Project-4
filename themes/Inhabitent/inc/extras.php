@@ -45,3 +45,11 @@ function inhabitent_login_title(){
 	return 'Inhabitent';
 }
 add_filter( 'login_headertitle', 'inhabitent_login_title');
+
+add_action('admin_init', 'my_remove_menu_elements', 102);
+ 
+function my_remove_menu_elements()
+{
+	remove_submenu_page( 'themes.php', 'theme-editor.php' );
+	remove_submenu_page( 'plugins.php','plugin-editor.php' );
+}
