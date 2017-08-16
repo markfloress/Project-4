@@ -605,6 +605,30 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+.widget-area {
+  padding-top: 5%;
+  border-left: 1px solid #e1e1e1;
+  width: 50%; }
+
+.widget-area aside {
+  margin-bottom: 50px;
+  padding-left: 50px; }
+
+.widget-area a {
+  color: #248a83;
+  text-decoration: none; }
+
+.widget-title, .day-of-week {
+  font-weight: bold; }
+
+.widget-title {
+  text-transform: uppercase; }
+
+.widget.widget_archive ul, .widget.widget_archive li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -642,6 +666,12 @@ a {
 
 .bypostauthor {
   display: block; }
+
+.site-content {
+  width: 80%;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto; }
 
 /*--------------------------------------------------------------
 # Media

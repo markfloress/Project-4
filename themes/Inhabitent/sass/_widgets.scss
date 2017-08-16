@@ -15,3 +15,33 @@
 .widget_search .search-submit {
 	display: none;
 }
+
+.widget-area{
+	padding-top: 5%;
+	border-left: 1px solid $border_color;
+	width: 50%;
+}
+
+.widget-area aside{
+	margin-bottom: 50px;
+	padding-left: 50px;
+}
+
+.widget-area a{
+	color: $tertiary_color;
+	text-decoration: none;
+}
+
+.widget-title, .day-of-week{
+	font-weight: bold;
+}
+
+.widget-title{
+	text-transform: uppercase;
+}
+
+.widget.widget_archive ul, .widget.widget_archive li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
