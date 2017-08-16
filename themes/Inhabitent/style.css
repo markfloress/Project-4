@@ -658,7 +658,7 @@ object {
 /* Front page */
 .site-footer {
   background-image: url(../../assets/dark-wood.png);
-  height: 340px; }
+  height: 350px; }
 
 .footer_info {
   display: -ms-flexbox;
@@ -667,14 +667,19 @@ object {
       flex-direction: row;
   width: 80%;
   margin: 0 auto;
-  padding: 50px 0; }
+  padding: 50px 0;
+  height: 280px; }
 
 .footer_contact_info, .footer_hours {
-  width: 25%; }
+  width: 25%;
+  color: #FFF; }
+
+.footer_contact_info a {
+  color: #FFF; }
 
 .footer_contact_info i {
   padding-right: 10px;
-  font-size: 30px; }
+  font-size: 20px; }
 
 .footer_contact_info li, .footer_contact_info ul {
   list-style: none;
@@ -690,3 +695,16 @@ object {
 
 .inhab_logo {
   width: 50%; }
+
+h3 {
+  font-weight: bold;
+  color: #d99054;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.footer_hours span {
+  font-weight: bold; }
+
+.footer_copyright {
+  color: #FFF;
+  text-align: center; }

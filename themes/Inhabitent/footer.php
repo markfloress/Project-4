@@ -9,8 +9,8 @@
 
 			</div><!-- #content -->
 
-			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class='footer_info'>
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class='footer_info'>
 				<div class='footer_contact_info'>
 					<h3> contact info </h3>
 					<p><i class="fa fa-envelope" aria-hidden="true"></i><a> info@inhabitent.com </a></p>
@@ -26,9 +26,11 @@
 				</div>		
 
 				<div class='footer_logo_container'>
-				<a href='#' class='inhab_logo'><img src="<?php echo get_template_directory_uri();?>/assets/logos/inhabitent-logo-text.svg" alt="inhabitent logo"></a>
+					<a href='#' class='inhab_logo'><img src="<?php echo get_template_directory_uri();?>/assets/logos/inhabitent-logo-text.svg" alt="inhabitent logo"></a>
 				</div>
-				</div>
+			</div>
+
+			<p class='footer_copyright'> COPYRIGHT © 2016 INHABITENT </p>
 
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
