@@ -75,3 +75,5 @@ function inhabitent_dynamic_css() {
     wp_add_inline_style( 'tent-style', $hero_css );
 }
 add_action( 'wp_enqueue_scripts', 'inhabitent_dynamic_css' );
+
+

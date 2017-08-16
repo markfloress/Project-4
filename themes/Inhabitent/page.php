@@ -16,8 +16,18 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 
+
+			<?php
+   $args = array( 'post_type' => 'product', 'order' => 'ASC' );
+   $product_posts = get_posts( $args ); // returns an array of posts
+?>
+<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+   <?php ?>
+<?php endforeach; wp_reset_postdata(); ?>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+

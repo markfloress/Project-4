@@ -657,4 +657,36 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .site-footer {
-  background-color: hotpink; }
+  background-image: url(../../assets/dark-wood.png);
+  height: 340px; }
+
+.footer_info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0; }
+
+.footer_contact_info, .footer_hours {
+  width: 25%; }
+
+.footer_contact_info i {
+  padding-right: 10px;
+  font-size: 30px; }
+
+.footer_contact_info li, .footer_contact_info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.footer_logo_container {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+
+.inhab_logo {
+  width: 50%; }
