@@ -672,7 +672,8 @@ a {
 
 body:not(.page-template-about):not(.home) .content-area {
   padding-top: 5%;
-  width: 90%; }
+  width: 90%;
+  padding-bottom: 10%; }
 
 .site-content {
   width: 80%;
@@ -687,18 +688,31 @@ body:not(.page-template-about):not(.home) .content-area {
 .findus_info {
   font-size: 16px; }
 
-.wpcf7-validates-as-required, .wpcf7-text, .wpcf7-textarea {
-  background-color: #f4f4f4; }
-
 .wpcf7-validates-as-required, .wpcf7-text {
   height: 40px;
   width: 390px; }
 
+.your-name input, .your-email input, .your-subject input, .your-message textarea {
+  border-radius: 0;
+  border-width: 1px;
+  background-color: #f4f4f4; }
+
+.wpcf7-form-control.wpcf7-submit {
+  text-transform: uppercase;
+  width: 110px;
+  height: 40px;
+  background-color: #248a83;
+  box-shadow: none;
+  color: white;
+  border-radius: 0;
+  font-weight: lighter; }
+
 .contact_decor {
-  color: #d99054; }
+  color: #d99054;
+  font-size: 20px; }
 
 .wpcf7-form label {
-  color: blue; }
+  text-transform: uppercase; }
 
 /*--------------------------------------------------------------
 # Media
