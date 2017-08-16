@@ -19,7 +19,7 @@
 .widget-area{
 	padding-top: 5%;
 	border-left: 1px solid $border_color;
-	width: 50%;
+	width: 400px;
 }
 
 .widget-area aside{
@@ -32,7 +32,7 @@
 	text-decoration: none;
 }
 
-.widget-title, .day-of-week{
+.widget-title, .days-of-week{
 	font-weight: bold;
 }
 
@@ -45,3 +45,4 @@
 	padding: 0;
 	margin: 0;
 }
+

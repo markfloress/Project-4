@@ -608,7 +608,7 @@ a {
 .widget-area {
   padding-top: 5%;
   border-left: 1px solid #e1e1e1;
-  width: 50%; }
+  width: 400px; }
 
 .widget-area aside {
   margin-bottom: 50px;
@@ -618,7 +618,7 @@ a {
   color: #248a83;
   text-decoration: none; }
 
-.widget-title, .day-of-week {
+.widget-title, .days-of-week {
   font-weight: bold; }
 
 .widget-title {
@@ -667,11 +667,38 @@ a {
 .bypostauthor {
   display: block; }
 
+.entry-content {
+  width: 95%; }
+
+body:not(.page-template-about):not(.home) .content-area {
+  padding-top: 5%;
+  width: 90%; }
+
 .site-content {
   width: 80%;
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto; }
+
+.p1 {
+  font-size: 30px;
+  text-transform: uppercase; }
+
+.findus_info {
+  font-size: 16px; }
+
+.wpcf7-validates-as-required, .wpcf7-text, .wpcf7-textarea {
+  background-color: #f4f4f4; }
+
+.wpcf7-validates-as-required, .wpcf7-text {
+  height: 40px;
+  width: 390px; }
+
+.contact_decor {
+  color: #d99054; }
+
+.wpcf7-form label {
+  color: blue; }
 
 /*--------------------------------------------------------------
 # Media
