@@ -28,7 +28,7 @@
 					</div><!-- .site-branding -->
 
 					<div class='header_logo_container'>
-						<a href='<?php echo get_home_url(); ?>'><img class='header_minitent_logo' src="<?php echo get_template_directory_uri();?>/assets/logos/inhabitent-logo-tent.svg" alt='Inhabitent Tent Logo'></a>
+						<a href=><img class='header_minitent_logo' src="<?php echo get_template_directory_uri();?>/assets/logos/inhabitent-logo-tent.svg" alt='Inhabitent Tent Logo'></a>
 					</div>
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">

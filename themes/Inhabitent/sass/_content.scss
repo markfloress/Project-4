@@ -58,7 +58,7 @@ width: 95%;
 }
 
 body{
-	&:not(.page-template-about):not(.home){
+	&:not(.page-template-about):not(.home):not(.about){
 		.content-area{     //page content on left, not sidebar//
 			padding-top: 5%;
 			width: 90%;
@@ -75,13 +75,13 @@ body{
 
 
 
-.p1{
+.p2{
 	font-size: 30px;
 	text-transform: uppercase;
 }
 
 .findus_info{
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .wpcf7-validates-as-required, .wpcf7-text{
@@ -113,4 +113,8 @@ body{
 
 .wpcf7-form label{
 	text-transform: uppercase;
+}
+
+.container{
+	width: 100%;
 }
