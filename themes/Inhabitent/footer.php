@@ -26,7 +26,7 @@
 				</div>		
 
 				<div class='footer_logo_container'>
-					<a href='#' class='inhab_logo'><img src="<?php echo get_template_directory_uri();?>/assets/logos/inhabitent-logo-text.svg" alt="inhabitent logo"></a>
+					<a href='#' class='inhab_logo'><img src="<?php echo get_template_directory_uri();?>/assets/logos/inhabitent-logo-text.svg" alt="Inhabitent logo"></a>
 				</div>
 			</div>
 
