@@ -58,7 +58,7 @@ width: 95%;
 }
 
 body{
-	&:not(.page-template-about):not(.home):not(.about){
+	&:not(.page-template-about):not(.home):not(.about):not(.archive-product){
 		.content-area{     //page content on left, not sidebar//
 			padding-top: 5%;
 			width: 90%;
