@@ -523,7 +523,6 @@ a {
 
 .site-header {
   width: 100%;
-  top: 30px;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.85);
   border-bottom: 1px solid #e1e1e1; }
@@ -563,6 +562,14 @@ a {
   -ms-flex-align: center;
       align-items: center;
   width: 50%; }
+
+.hero_banner {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(../../assets/home-hero.jpg) no-repeat top;
+  background-size: cover;
+  height: 100vh; }
+
+.frontpage_product_types {
+  color: red; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -704,7 +711,7 @@ body:not(.page-template-about):not(.home):not(.about):not(.archive-product) .con
   width: 90%;
   padding-bottom: 10%; }
 
-.site-content {
+body:not(.home) .site-content {
   width: 80%;
   display: -ms-flexbox;
   display: flex;

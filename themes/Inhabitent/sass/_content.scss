@@ -62,10 +62,14 @@ body{
 	}
 }
 
-.site-content{      //all of page content//
-	width: 80%;
-	display: flex;
-	margin: 0 auto;
+body{     //all of page content//
+	&:not(.home){
+		.site-content{ 
+			width: 80%;
+			display: flex;
+			margin: 0 auto;
+		}
+	}
 }
 
 

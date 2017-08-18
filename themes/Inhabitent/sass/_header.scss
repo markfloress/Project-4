@@ -9,7 +9,6 @@
 
 .site-header{
   width: 100%;
-  top: 30px;
   position: fixed;
   background-color: hsla(0,0%,100%,.85); 
   border-bottom: 1px solid $border_color;
@@ -48,4 +47,14 @@
   justify-content: flex-end;
   align-items: center;
   width: 50%;
+}
+
+.hero_banner{
+  background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../assets/home-hero.jpg) no-repeat top;
+  background-size: cover;
+  height: 100vh;
+}
+
+.frontpage_product_types{
+  color: red;
 }
