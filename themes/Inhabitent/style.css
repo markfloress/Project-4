@@ -267,7 +267,12 @@ textarea {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  clear: both; }
+  clear: both;
+  text-transform: uppercase;
+  text-align: center; }
+
+.entry-header h1, .widget-area h2, .footer_info h3 {
+  text-align: left; }
 
 /* Copy */
 p {
@@ -513,6 +518,11 @@ a {
   text-align: right;
   width: 50%; }
 
+.main-navigation, .main-navigation a {
+  color: #248a83;
+  text-transform: uppercase;
+  padding: 0 15px; }
+
 .site-description {
   position: absolute;
   left: -10000px;
@@ -533,11 +543,6 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto; }
-
-.main-navigation, .main-navigation a {
-  color: #248a83;
-  text-transform: uppercase;
-  padding: 0 15px; }
 
 .main-navigation {
   padding-right: 0; }
@@ -566,10 +571,68 @@ a {
 .hero_banner {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(../../assets/home-hero.jpg) no-repeat top;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
 
 .frontpage_product_types {
-  color: red; }
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.product_type_icon {
+  height: 70px; }
+
+.shop_stuff {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0; }
+  .shop_stuff h1 {
+    padding-bottom: 40px; }
+
+.indiv_product_type {
+  padding-top: 10px;
+  width: 270px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  border: 1px #e1e1e1 solid;
+  border-top: 5px #e1e1e1 solid;
+  box-sizing: inherit; }
+  .indiv_product_type p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0; }
+  .indiv_product_type a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #248a83;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+
+.shop_stuff h1 {
+  text-align: center; }
+
+.shop_stuff_button {
+  text-transform: uppercase; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -752,6 +815,20 @@ body:not(.home) .site-content {
 
 .container {
   width: 100%; }
+
+.frontpage_journal_container {
+  width: 80%;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding-top: 40px; }
+
+.indiv_journal_post {
+  width: 365px; }
+  .indiv_journal_post img {
+    height: 250px; }
 
 /*--------------------------------------------------------------
 # Media

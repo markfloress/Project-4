@@ -3,7 +3,7 @@
 DO/ ETC single page with 4 products
 
                         <?php while ( have_posts() ): the_post(); ?>;    if it has post
-                        <?php single_term_title(); ?>;     "DO" etc
+                        <?php single_term_title(); ?>;     
                         <?php the_archive_description(); ?>;  the description
 
                         <?php if ( has_post_thumbnail() ): ?>;    grab image

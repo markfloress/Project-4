@@ -17,6 +17,12 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.entry-header h1, .widget-area h2, .footer_info h3{
+	text-align: left;
 }
 
 /* Copy */

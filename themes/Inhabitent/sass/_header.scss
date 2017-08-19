@@ -21,12 +21,6 @@
   margin: 0 auto;
 }
 
-.main-navigation, .main-navigation a{
-  color: $tertiary_color;
-  text-transform: uppercase;
-  padding: 0 15px;
-}
-
 .main-navigation{
   padding-right: 0;
 }
@@ -53,8 +47,68 @@
   background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../assets/home-hero.jpg) no-repeat top;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .frontpage_product_types{
-  color: red;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
+
+.product_type_icon{
+  height: 70px;
+}
+
+.shop_stuff{
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  h1{
+    padding-bottom: 40px;
+  }
+}
+
+.indiv_product_type{
+  padding-top: 10px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  border: 1px $border_color solid;
+  border-top: 5px $border_color solid;
+  box-sizing: inherit;
+
+  p{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: $footer_text_color;
+    background-color: $tertiary_color;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+}
+
+.shop_stuff h1{
+	text-align: center;
+}
+
+.shop_stuff_button{
+  text-transform: uppercase;
+}
+

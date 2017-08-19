@@ -28,13 +28,14 @@
 					</div><!-- .site-branding -->
 
 					<div class='header_logo_container'>
-						<a href='<?php echo get_home_url(); ?>'><img class='header_minitent_logo' src="<?php echo get_template_directory_uri();?>/assets/logos/inhabitent-logo-tent.svg" alt='Inhabitent Tent Logo'></a>
+						<a href='<?php echo home_url(); ?>'><img class='header_minitent_logo' src="<?php echo get_template_directory_uri();?>/assets/logos/inhabitent-logo-tent.svg" alt='Inhabitent Tent Logo'></a>
 					</div>
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 						<i class="fa fa-search" aria-hidden="true"></i>
+						<!-- <php get_search_form(); ?>-->
 					</nav><!-- #site-navigation -->
 				</div>
 			</header><!-- #masthead -->

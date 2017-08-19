@@ -130,3 +130,9 @@ a {
 		width: 50%;
 	}
 }
+
+.main-navigation, .main-navigation a{
+  color: $tertiary_color;
+  text-transform: uppercase;
+  padding: 0 15px;
+}
