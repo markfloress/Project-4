@@ -124,12 +124,205 @@ body{     //all of page content//
 	display: flex;
 	justify-content: space-between;
 	padding-top: 40px;
+	padding-bottom: 50px;
+	
 }
+
+//                             STYLES FOR JOURNAL ENTRIES
 
 .indiv_journal_post{
 	width: 365px;
+	height: 415px;
+	border: 1px $border_color solid;
+	position: relative;
+	line-height: 0;
+
+	.journal_post_text{
+		border-top: $border-color 5px solid;
+		padding: 10px;
+		box-sizing: border-box;
+		line-height: 1.5;
+
+		p{
+			margin: 0;
+			font-size: 13px;
+			padding-top: 5px;
+		}
+
+		a{
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 1.35;
+			letter-spacing: 2px;
+		}
+	}
 
 		img{
 			height: 250px;
 		}
+
+		a{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: $tertiary_color;
+		}
+
+		.read_entry_button{
+			height: 40px;
+			width: 140px;
+			position: absolute;
+			left: 12px;
+			bottom: 12px;
+
+			a:hover{
+				color: $footer_text_color;
+				background-color: $tertiary_color;
+				width: 100%;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border: 1px $tertiary_color solid;
+			}
+
+			a{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: black;
+				border: 1px solid black;
+				height: inherit;
+				width: inherit;
+			}
+		}
+}
+	
+
+//                         STYLES FOR ADVENTURE FRONT PAGE
+
+
+.frontpage_adventures{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.adv_container{
+	width: 100%;
+	display: flex;
+	height: 540px;
+
+	.adv_post_1{
+		border-right: 10px solid $footer_text_color;
+		width: 50%;
+		padding-left: 25px;
+		background-size: cover;
+		background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../assets/adventure-photos/canoe-girl.jpg)center/cover;
+	 }
+
+	 .adv_container2{
+		 display: flex;
+		 flex-wrap: wrap;
+		 width: 50%;
+
+		.adv_post_2, .adv_post_3, .adv_post_4{
+			padding-left: 25px;
+			width: 100%;
+			height: 50%;
+			box-sizing: border-box;
+		}
+
+		.adv_post_2{
+			border: 10px solid $footer_text_color;
+			border-top: 0;
+			border-right: 0;
+			background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../assets/adventure-photos/beach-bonfire.jpg) center/cover;
+			h4{
+				font-size: 40px;
+				line-height: 50px;
+			}
+		}
+
+		.adv_post_3{
+			border: 10px solid $footer_text_color;
+			border-bottom: 0;
+			width: 50%;
+			background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../assets/adventure-photos/mountain-hikers.jpg) center/cover;
+			h4{
+				font-size: 30px;
+				line-height: 35px;
+			}
+		}
+
+		.adv_post_4{
+			border: 10px solid $footer_text_color;
+			border-bottom: 0;
+			border-right: 0;
+			width: 50%;
+			background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../assets/adventure-photos/night-sky.jpg)center/cover;
+			h4{
+				font-size: 30px;
+				line-height: 35px;
+			}
+		}
+	}
+
+	h4{
+		font-size: 50px;
+		text-transform: capitalize;
+		color: $footer_text_color;
+		font-weight: normal;
+		text-align: left;
+		margin-top: 45px;
+		line-height: 60px;
+		margin-bottom: 40px;
+		letter-spacing: 2px;
+	}
+
+	.journal_readme_button{
+		height: 45px;
+		width: 140px;
+		background-color: transparent;
+
+		a{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: $footer_text_color;
+			border: 1px solid $footer_text_color;
+			width: inherit;
+			height: inherit;
+			display: flex;
+		  justify-content: center;
+		  align-items: center;
+		}
+
+		a:hover{
+			color: $footer_text_color;
+			background-color: $tertiary_color;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 1px $tertiary_color solid;
+		}
+	}	
+}
+
+.more_adv_button{
+	color: $footer_text_color;
+	background-color: $tertiary_color;
+	margin-top: 30px;
+	margin-bottom: 65px;
+	width: 230px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	p{
+		text-transform: uppercase;
+		font-size: 18px;
+		margin: 0;
+	}
 }

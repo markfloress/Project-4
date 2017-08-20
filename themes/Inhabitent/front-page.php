@@ -35,7 +35,9 @@ get_header(); ?>
         </div>
       </div>
 
+
       <h1> inhabitent journal </h1>
+
                         
   <div class='frontpage_journal_container'>
     <?php
@@ -47,15 +49,61 @@ get_header(); ?>
           <?php  if (has_post_thumbnail() ):?>
           <?php the_post_thumbnail('large')?>
           <?php endif; ?>
-
+          
+      <div class='journal_post_text'>
         <div> 
           <p><?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></p>
         </div>
         <a href="<? echo get_post_permalink() ?>"><?php the_title(); ?></a>
+      </div>    <!-- end of journal post text -->
+
+      <div class='read_entry_button'>
+        <a href='<? echo get_post_permalink() ?>'>read entry</a>
       </div>
+    </div>    <!-- end of indiv div -->
 
     <?php endforeach; wp_reset_postdata(); ?>
   </div>
+
+  <h1> latest adventures </h1>
+
+  <div class='frontpage_adventures'>
+    <div class='adv_container'>
+      <div class='adv_post_1'>
+        <h4> getting back to nature in a canoe </h4>
+        <div class='journal_readme_button'>
+          <a href='#'>read more</a>
+        </div>
+      </div>
+
+      <div class='adv_container2'>
+        <div class='adv_post_2'>
+          <h4> a night with friends at the beach </h4>
+          <div class='journal_readme_button'>
+            <a href='#'>read more</a>
+          </div>
+        </div>
+        
+        <div class='adv_post_3'>
+          <h4> taking in the view at big mountain </h4>
+          <div class='journal_readme_button'>
+            <a href='#'>read more</a>
+          </div>
+        </div>
+        
+        <div class='adv_post_4'>
+          <h4> star-gazing at the night sky </h4>
+          <div class='journal_readme_button'>
+            <a href='#'>read more</a>
+          </div>
+        </div> <!--end of post 4 -->
+      </div><!-- end of class 2 adv post -->
+    </div> <!-- end of adventure container -->
+
+    <div class='more_adv_button'>
+      <p>more adventures</p>
+    </div>
+  </div> <!-- end of adventure posts -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
