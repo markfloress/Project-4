@@ -36,13 +36,17 @@ Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Br
 ## Screenshots:
 ### Frontpage
 ![screencapture-localhost-8888-project04-1503299730249-min](https://user-images.githubusercontent.com/29613498/29508105-0de9dde0-8608-11e7-98d0-1db283f84764.png)
+####
 
 ### Journal Page
-(https://user-images.githubusercontent.com/29613498/29507984-7e3a2826-8607-11e7-85ba-86cf81ea0645.png)
+![screencapture-localhost-8888-project04-journal-1503299665236-min](https://user-images.githubusercontent.com/29613498/29508152-3a2476c2-8608-11e7-8d56-c6de4f1addf6.png)
+####
 
 ### About Page
-(https://user-images.githubusercontent.com/29613498/29507979-775cecf0-8607-11e7-9b5e-e223f68c0e69.png)
+![screencapture-localhost-8888-project04-about-1503299643823-min](https://user-images.githubusercontent.com/29613498/29508158-42c07678-8608-11e7-9913-da75e21299e6.png)
+####
 
 ### Find Us Page 
-(https://user-images.githubusercontent.com/29613498/29507973-6ebdcbf0-8607-11e7-8700-ae242c04e0ed.png)
+![screencapture-localhost-8888-project04-find-us-1503299609378-min](https://user-images.githubusercontent.com/29613498/29508184-5b9d2902-8608-11e7-85f4-b5e216851def.png)
+
 
