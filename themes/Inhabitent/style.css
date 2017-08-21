@@ -1023,6 +1023,71 @@ body:not(.home):not(.page-id-73) .site-content {
   .page-id-73 .entry-content P {
     line-height: 28px; }
 
+.blog .content-area, .archive .content-area {
+  width: 80%; }
+
+.blog .widget-area, .archive .widget-area {
+  width: 350px; }
+
+.post_container {
+  position: relative;
+  width: 95%; }
+  .post_container .wp-post-image {
+    width: 100%;
+    height: 100%; }
+  .post_container .content_title {
+    width: 75%;
+    position: absolute;
+    background-color: #248a83;
+    top: 35px;
+    left: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; }
+    .post_container .content_title a {
+      text-decoration: none;
+      color: #FFF;
+      font-size: 32px;
+      letter-spacing: 3px; }
+    .post_container .content_title h2 {
+      margin: 20px 0;
+      padding-left: 20px;
+      text-align: left; }
+  .post_container .entry-meta {
+    background-color: #248a83;
+    color: #FFF;
+    width: 50%;
+    right: 0;
+    bottom: 7px;
+    position: absolute;
+    text-align: center; }
+
+.post_readmore_button {
+  width: 160px;
+  padding-bottom: 40px; }
+  .post_readmore_button a {
+    text-transform: uppercase;
+    height: 40px;
+    color: black;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    border: 1px solid black; }
+  .post_readmore_button a:hover {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    color: #FFF;
+    background-color: #248a83;
+    border: 0; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/

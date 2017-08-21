@@ -359,3 +359,82 @@ body{     //all of page content//
 		}
 	}
 }
+
+// BLOG STYLES
+
+.blog, .archive{
+	.content-area{
+		width: 80%;
+	}
+
+	.widget-area{
+		width: 350px;
+	}
+}
+
+.post_container{
+	position: relative;
+	width: 95%;
+
+	.wp-post-image{
+		width: 100%;
+		height: 100%;
+	}
+
+	.content_title{
+		width: 75%;
+		position: absolute;
+		background-color: $tertiary_color;
+		top: 35px;
+		left: 0;
+		display: flex;
+		align-items: center;
+
+		a{
+			text-decoration: none;
+			color: $footer_text_color;
+			font-size: 32px;
+			letter-spacing: 3px;
+		}
+
+		h2{
+			margin: 20px 0;
+			padding-left: 20px;
+			text-align: left;
+		}
+	}
+
+	.entry-meta{
+			background-color: $tertiary_color;
+			color: $footer_text_color;
+			width: 50%;
+			right: 0;
+			bottom: 7px;
+			position: absolute;
+			text-align: center;
+		}
+}
+
+.post_readmore_button{
+	width: 160px;
+	padding-bottom: 40px;
+
+	a{
+		text-transform: uppercase;
+		height: 40px;
+		color: black;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid black;
+	}
+
+	a:hover{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: $footer_text_color;
+		background-color: $tertiary_color;
+		border: 0;
+	}
+}
