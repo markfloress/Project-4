@@ -12,6 +12,7 @@
   position: fixed;
   background-color: hsla(0,0%,100%,.85); 
   border-bottom: 1px solid $border_color;
+  z-index: 99;
 }
 
 .header_container{
@@ -112,3 +113,13 @@
   text-transform: uppercase;
 }
 
+.entry-title{
+  margin-top: 0;
+  // height: 100vh;
+  // width: 100vw;
+}
+
+.custom-hero{
+  height: 100vh;
+  width: 100%;
+}

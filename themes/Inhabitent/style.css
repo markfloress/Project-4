@@ -535,7 +535,8 @@ a {
   width: 100%;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.85);
-  border-bottom: 1px solid #e1e1e1; }
+  border-bottom: 1px solid #e1e1e1;
+  z-index: 99; }
 
 .header_container {
   width: 80%;
@@ -634,6 +635,13 @@ a {
 .shop_stuff_button {
   text-transform: uppercase; }
 
+.entry-title {
+  margin-top: 0; }
+
+.custom-hero {
+  height: 100vh;
+  width: 100%; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -707,7 +715,7 @@ a {
 .widget-area {
   padding-top: 5%;
   border-left: 1px solid #e1e1e1;
-  width: 400px; }
+  width: 650px; }
 
 .widget-area aside {
   margin-bottom: 50px;
@@ -771,10 +779,9 @@ a {
 
 body:not(.page-template-about):not(.home):not(.about):not(.archive-product) .content-area {
   padding-top: 5%;
-  width: 90%;
   padding-bottom: 10%; }
 
-body:not(.home) .site-content {
+body:not(.home):not(.page-id-73) .site-content {
   width: 80%;
   display: -ms-flexbox;
   display: flex;
@@ -991,6 +998,30 @@ body:not(.home) .site-content {
     text-transform: uppercase;
     font-size: 18px;
     margin: 0; }
+
+.page-id-73 {
+  width: 100%; }
+
+.page-id-73 .entry-title {
+  color: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px; }
+
+.page-id-73 .custom-hero {
+  position: relative; }
+
+.page-id-73 .entry-content {
+  width: 55%;
+  margin: 0 auto;
+  padding: 20px 0; }
+  .page-id-73 .entry-content h2 {
+    font-size: 32px;
+    margin-bottom: 0; }
+  .page-id-73 .entry-content P {
+    line-height: 28px; }
 
 /*--------------------------------------------------------------
 # Media

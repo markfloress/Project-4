@@ -56,14 +56,13 @@ body{
 	&:not(.page-template-about):not(.home):not(.about):not(.archive-product){
 		.content-area{     //page content on left, not sidebar//
 			padding-top: 5%;
-			width: 90%;
 			padding-bottom: 10%;
 		}
 	}
 }
 
 body{     //all of page content//
-	&:not(.home){
+	&:not(.home):not(.page-id-73){
 		.site-content{ 
 			width: 80%;
 			display: flex;
@@ -324,5 +323,39 @@ body{     //all of page content//
 		text-transform: uppercase;
 		font-size: 18px;
 		margin: 0;
+	}
+}
+
+.page-id-73{
+	width: 100%;
+}
+
+.page-id-73{       //about page
+	.entry-title{
+		color: $footer_text_color;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 50px;
+	}
+
+	.custom-hero{
+		position: relative;
+	}
+
+	.entry-content{
+		width: 55%;
+		margin: 0 auto;
+		padding: 20px 0;
+		
+		h2{
+			font-size: 32px;
+			margin-bottom: 0;
+		}
+
+		P{
+			line-height: 28px;
+		}
 	}
 }
