@@ -1023,10 +1023,10 @@ body:not(.home):not(.page-id-73) .site-content {
   .page-id-73 .entry-content P {
     line-height: 28px; }
 
-.blog .content-area, .archive .content-area {
+.blog .content-area, .archive .content-area, .single .content-area {
   width: 80%; }
 
-.blog .widget-area, .archive .widget-area {
+.blog .widget-area, .archive .widget-area, .single .widget-area {
   width: 350px; }
 
 .post_container {
@@ -1076,7 +1076,8 @@ body:not(.home):not(.page-id-73) .site-content {
         justify-content: center;
     -ms-flex-align: center;
         align-items: center;
-    border: 1px solid black; }
+    border: 1px solid black;
+    text-decoration: none; }
   .post_readmore_button a:hover {
     display: -ms-flexbox;
     display: flex;
@@ -1087,6 +1088,51 @@ body:not(.home):not(.page-id-73) .site-content {
     color: #FFF;
     background-color: #248a83;
     border: 0; }
+
+.single h2 {
+  color: #FFF; }
+
+.single .comments-link a {
+  text-decoration: none;
+  color: #FFF; }
+
+.single .entry-footer {
+  text-transform: uppercase; }
+  .single .entry-footer span {
+    padding-right: 30px; }
+    .single .entry-footer span a {
+      color: #248a83;
+      text-transform: none;
+      text-transform: uppercase; }
+
+.single .post-navigation {
+  display: none; }
+
+.single .post_social {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  width: 330px;
+  height: 40px; }
+  .single .post_social div {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    border: 1px solid black; }
+    .single .post_social div a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: black; }
+  .single .post_social .social_fb {
+    width: 100px; }
+  .single .post_social .social_tweet {
+    width: 130px;
+    margin: 0 5px; }
+  .single .post_social .social_pin {
+    width: 100px; }
 
 /*--------------------------------------------------------------
 # Media

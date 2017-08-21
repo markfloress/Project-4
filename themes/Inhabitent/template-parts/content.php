@@ -29,6 +29,6 @@
 	</div><!-- .entry-content -->
 
 	<div class='post_readmore_button'>
-		<a>read more &rarr;</a>
+		<a href='<?php echo esc_url( get_permalink() )?>'>read more &rarr;</a>
 	</div>
 </article><!-- #post-## -->

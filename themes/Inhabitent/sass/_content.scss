@@ -362,7 +362,7 @@ body{     //all of page content//
 
 // BLOG STYLES
 
-.blog, .archive{
+.blog, .archive, .single{
 	.content-area{
 		width: 80%;
 	}
@@ -427,6 +427,7 @@ body{     //all of page content//
 		justify-content: center;
 		align-items: center;
 		border: 1px solid black;
+		text-decoration: none;
 	}
 
 	a:hover{
@@ -436,5 +437,65 @@ body{     //all of page content//
 		color: $footer_text_color;
 		background-color: $tertiary_color;
 		border: 0;
+	}
+}
+
+.single{
+	h2{
+		color: $footer_text_color;
+	}
+	
+	.comments-link a{
+		text-decoration: none;
+		color: $footer_text_color;
+	}
+
+	.entry-footer{
+		text-transform: uppercase;
+
+		span{
+			padding-right: 30px;
+
+			a{
+				color: $tertiary_color;
+				text-transform: none;
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	.post-navigation{
+		display: none;
+	}
+
+	.post_social{
+		display: flex;
+		margin-top: 30px;
+		width: 330px;
+		height: 40px;
+
+		div{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 1px solid black;
+
+			a{
+				text-decoration: none;
+				text-transform: uppercase;
+				color: black;
+			}
+		}
+
+		.social_fb{
+			width: 100px;
+		}
+		.social_tweet{
+			width: 130px;
+			margin: 0 5px;
+		}
+		.social_pin{
+			width: 100px;
+		}
 	}
 }
