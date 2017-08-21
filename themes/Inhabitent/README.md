@@ -34,4 +34,15 @@ Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Br
 </ul>
 
 ## Screenshots:
+### Frontpage
+(https://user-images.githubusercontent.com/29613498/29507989-8481effc-8607-11e7-8790-19c4030b617a.png)
+
+### Journal Page
+(https://user-images.githubusercontent.com/29613498/29507984-7e3a2826-8607-11e7-85ba-86cf81ea0645.png)
+
+### About Page
+(https://user-images.githubusercontent.com/29613498/29507979-775cecf0-8607-11e7-9b5e-e223f68c0e69.png)
+
+### Find Us Page 
+(https://user-images.githubusercontent.com/29613498/29507973-6ebdcbf0-8607-11e7-8700-ae242c04e0ed.png)
 
