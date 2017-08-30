@@ -572,3 +572,37 @@ body{     //all of page content//
 		text-decoration: none;
 	}	
 }
+
+.post-type-archive{
+
+	.content-area{
+		width: 100%;
+	}
+	.site-main{
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	#content{
+		display: block;
+	}
+
+	.frontpage_product_types{
+		display: flex;
+		justify-content: center;
+
+		.indiv_product_type{
+			border: none;
+			width: 50px;
+			margin: 0 20px;
+			font-size: 16px;
+	
+			a{
+				background-color: #FFF;
+				color: $tertiary_color;
+			}
+		}
+	}
+
+	
+}

@@ -1190,6 +1190,30 @@ body:not(.home):not(.page-id-73) .site-content {
     color: #248a83;
     text-decoration: none; }
 
+.post-type-archive .content-area {
+  width: 100%; }
+
+.post-type-archive .site-main {
+  margin: 0 auto;
+  width: 80%; }
+
+.post-type-archive #content {
+  display: block; }
+
+.post-type-archive .frontpage_product_types {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .post-type-archive .frontpage_product_types .indiv_product_type {
+    border: none;
+    width: 50px;
+    margin: 0 20px;
+    font-size: 16px; }
+    .post-type-archive .frontpage_product_types .indiv_product_type a {
+      background-color: #FFF;
+      color: #248a83; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
