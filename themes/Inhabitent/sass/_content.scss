@@ -548,3 +548,27 @@ body{     //all of page content//
 	color: #404040;
 }
 
+.comment-list{
+	width: 90%;
+}
+
+.comment-body{
+	display: flex;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px lightgray solid;
+
+	.avatar.avatar-64.photo{
+		border-radius: 50px;
+		margin-right: 25px;
+	}
+
+	.comment-author.vcard{
+		font-weight: bold;
+	}
+
+	.comment-reply-link{
+		color: #248a83;
+		text-decoration: none;
+	}	
+}

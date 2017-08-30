@@ -1172,6 +1172,24 @@ body:not(.home):not(.page-id-73) .site-content {
 .widget.widget_text .widget-title, .widget.widget_archive .widget-title {
   color: #404040; }
 
+.comment-list {
+  width: 90%; }
+
+.comment-body {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px lightgray solid; }
+  .comment-body .avatar.avatar-64.photo {
+    border-radius: 50px;
+    margin-right: 25px; }
+  .comment-body .comment-author.vcard {
+    font-weight: bold; }
+  .comment-body .comment-reply-link {
+    color: #248a83;
+    text-decoration: none; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
