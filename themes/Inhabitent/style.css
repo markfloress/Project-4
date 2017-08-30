@@ -523,6 +523,21 @@ a {
   text-transform: uppercase;
   padding: 0 15px; }
 
+.search-form fieldset {
+  border: none; }
+  .search-form fieldset .search-field {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-top: 6px;
+    height: 30px;
+    width: 0; }
+  .search-form fieldset .fast {
+    width: 100px; }
+
+.search-form button {
+  display: none; }
+
 .site-description {
   position: absolute;
   left: -10000px;
@@ -540,13 +555,10 @@ a {
 
 .header_container {
   width: 80%;
-  height: 50px;
+  height: 40px;
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto; }
-
-.main-navigation {
-  padding-right: 0; }
 
 .header_logo_container {
   width: 50%;
@@ -561,13 +573,13 @@ a {
   display: flex; }
 
 .main-navigation {
+  padding-right: 0;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: end;
       justify-content: flex-end;
   -ms-flex-align: center;
-      align-items: center;
-  width: 50%; }
+      align-items: center; }
 
 .hero_banner {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(../../assets/home-hero.jpg) no-repeat top;

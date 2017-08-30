@@ -17,13 +17,9 @@
 
 .header_container{
   width: 80%;
-  height: 50px;
+  height: 40px;
   display: flex;
   margin: 0 auto;
-}
-
-.main-navigation{
-  padding-right: 0;
 }
 
 .header_logo_container{
@@ -38,10 +34,10 @@
 }
 
 .main-navigation{
+  padding-right: 0;  
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 50%;
 }
 
 .hero_banner{

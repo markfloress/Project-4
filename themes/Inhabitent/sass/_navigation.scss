@@ -136,3 +136,26 @@ a {
   text-transform: uppercase;
   padding: 0 15px;
 }
+
+.search-form{
+	fieldset{
+		border: none;
+
+		.search-field{
+			outline: none;
+			border: none;
+			background-color: transparent;
+			margin-top: 6px;
+			height: 30px;
+			width: 0;
+		}
+
+		.fast{
+			width: 100px;
+		}
+	}
+
+	button{
+		display: none;
+	}
+}
