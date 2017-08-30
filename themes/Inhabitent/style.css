@@ -798,7 +798,7 @@ body:not(.home):not(.page-id-73) .site-content {
   height: 40px;
   width: 390px; }
 
-.your-name input, .your-email input, .your-subject input, .your-message textarea {
+.your-name input, .your-email input, .your-subject input, .your-message textarea, #comment, #author, #email, #url {
   border-radius: 0;
   border-width: 1px;
   background-color: #f4f4f4; }
@@ -813,11 +813,11 @@ body:not(.home):not(.page-id-73) .site-content {
   border-radius: 0;
   font-weight: lighter; }
 
-.contact_decor {
+.contact_decor, .required {
   color: #d99054;
   font-size: 20px; }
 
-.wpcf7-form label {
+.wpcf7-form label, .comment-form-comment, .comment-form-author, .comment-form-email, .comment-form-url {
   text-transform: uppercase; }
 
 .container {
@@ -1133,6 +1133,44 @@ body:not(.home):not(.page-id-73) .site-content {
     margin: 0 5px; }
   .single .post_social .social_pin {
     width: 100px; }
+
+.comment-reply-title {
+  margin-top: 100px;
+  color: #404040;
+  font-size: 30px;
+  text-align: left; }
+
+.comment-form-comment {
+  width: 95%; }
+
+.comment-form-author, .comment-form-email {
+  width: 40%;
+  display: inline-block; }
+
+.comment-form-email {
+  margin-left: 65px; }
+
+.comment-form-url {
+  display: inline-block;
+  width: 95%; }
+  .comment-form-url #url {
+    width: 100%; }
+
+#author, #email {
+  width: 385px; }
+
+#submit {
+  text-transform: uppercase;
+  width: 110px;
+  height: 40px;
+  background-color: #248a83;
+  box-shadow: none;
+  color: white;
+  border-radius: 0;
+  font-weight: lighter; }
+
+.widget.widget_text .widget-title, .widget.widget_archive .widget-title {
+  color: #404040; }
 
 /*--------------------------------------------------------------
 # Media
