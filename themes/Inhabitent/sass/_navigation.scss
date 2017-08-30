@@ -148,6 +148,7 @@ a {
 			margin-top: 6px;
 			height: 30px;
 			width: 0;
+			transition: width ease-in-out 0.3s;
 		}
 
 		.fast{

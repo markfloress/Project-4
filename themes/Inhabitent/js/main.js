@@ -7,7 +7,7 @@
  
  $(document).on('click', function(event){
       if (!$('.search-field').is( event.target )){
-         $( ".search-field" ).hide('fast');
+         $( ".search-field" ).removeClass('fast');
       }
   });
  
