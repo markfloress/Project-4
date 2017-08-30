@@ -1291,6 +1291,23 @@ body:not(.home):not(.page-id-73) .site-content {
 .error404 .widget-area {
   width: 350px; }
 
+.search-results .content-area {
+  width: 80%; }
+  .search-results .content-area h1 {
+    margin-bottom: 50px;
+    border-bottom: 1px #e1e1e1 solid;
+    height: 70px; }
+  .search-results .content-area h1, .search-results .content-area h2 {
+    text-align: left; }
+    .search-results .content-area h1 a, .search-results .content-area h2 a {
+      text-decoration: none;
+      color: #248a83; }
+  .search-results .content-area .post_readmore_button {
+    margin-bottom: 50px; }
+
+.search-results .widget-area {
+  width: 350px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/

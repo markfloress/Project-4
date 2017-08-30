@@ -21,6 +21,10 @@ get_header(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'search' ); ?>
 
+				<div class='post_readmore_button'>
+					<a href='<?php echo esc_url( get_permalink() )?>'>read more &rarr;</a>
+				</div>
+
 			<?php endwhile; ?>
 
 			<?php red_starter_numbered_pagination(); ?>
@@ -30,6 +34,8 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
+
+		
 
 		</main><!-- #main -->
 	</section><!-- #primary -->

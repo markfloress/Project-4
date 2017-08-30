@@ -699,3 +699,31 @@ body{     //all of page content//
 		width: 350px;
 	}
 }
+
+.search-results{
+	.content-area{
+		width: 80%;
+
+		h1{
+			margin-bottom: 50px;
+			border-bottom: 1px $border_color solid;
+			height: 70px;
+		}
+
+		h1,h2{
+			text-align: left;
+
+			a{
+				text-decoration: none;
+				color: $tertiary_color;
+			}
+		}
+		.post_readmore_button{
+			margin-bottom: 50px;
+		}
+	}
+
+	.widget-area{
+		width: 350px;
+	}
+}
