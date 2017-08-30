@@ -661,3 +661,41 @@ body{     //all of page content//
 		}
 	}
 }
+
+.error404{
+
+	.content-area{
+		width: 80%;
+
+		h1,h2,ul{
+			text-align: left;
+		}
+
+		ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			a{
+				text-decoration: none;
+				color: $tertiary_color;
+			}
+		}
+
+		fieldset{
+			padding-left: 0;
+		}
+
+		.search-field{
+			margin: 0;
+			padding: 0;
+			width: 200px;
+			border: 1px solid lightgray;
+			background-color: #f4f4f4;
+		}
+	}
+
+	.widget-area{
+		width: 350px;
+	}
+}

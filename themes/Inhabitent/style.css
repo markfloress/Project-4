@@ -1268,6 +1268,29 @@ body:not(.home):not(.page-id-73) .site-content {
       max-width: 20px;
       line-height: 10px; }
 
+.error404 .content-area {
+  width: 80%; }
+  .error404 .content-area h1, .error404 .content-area h2, .error404 .content-area ul {
+    text-align: left; }
+  .error404 .content-area ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .error404 .content-area ul a {
+      text-decoration: none;
+      color: #248a83; }
+  .error404 .content-area fieldset {
+    padding-left: 0; }
+  .error404 .content-area .search-field {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    border: 1px solid lightgray;
+    background-color: #f4f4f4; }
+
+.error404 .widget-area {
+  width: 350px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
