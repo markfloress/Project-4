@@ -1190,29 +1190,70 @@ body:not(.home):not(.page-id-73) .site-content {
     color: #248a83;
     text-decoration: none; }
 
-.post-type-archive .content-area {
+.post-type-archive .content-area, .tax-product-type .content-area {
   width: 100%; }
 
-.post-type-archive .site-main {
-  margin: 0 auto;
-  width: 80%; }
+.post-type-archive #primary, .tax-product-type #primary {
+  padding-bottom: 50px; }
 
-.post-type-archive #content {
+.post-type-archive .site-main, .tax-product-type .site-main {
+  margin: 0 auto;
+  border-bottom: #e1e1e1 1px dashed; }
+
+.post-type-archive #content, .tax-product-type #content {
   display: block; }
 
-.post-type-archive .frontpage_product_types {
+.post-type-archive .frontpage_product_types, .tax-product-type .frontpage_product_types {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center; }
-  .post-type-archive .frontpage_product_types .indiv_product_type {
+  .post-type-archive .frontpage_product_types .indiv_product_type, .tax-product-type .frontpage_product_types .indiv_product_type {
     border: none;
     width: 50px;
     margin: 0 20px;
     font-size: 16px; }
-    .post-type-archive .frontpage_product_types .indiv_product_type a {
+    .post-type-archive .frontpage_product_types .indiv_product_type a, .tax-product-type .frontpage_product_types .indiv_product_type a {
       background-color: #FFF;
       color: #248a83; }
+
+.post-type-archive .products_grid, .tax-product-type .products_grid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .post-type-archive .products_grid img, .tax-product-type .products_grid img {
+    height: 250px; }
+  .post-type-archive .products_grid .entry-header, .tax-product-type .products_grid .entry-header {
+    height: 250px; }
+  .post-type-archive .products_grid article, .tax-product-type .products_grid article {
+    width: 23%; }
+    .post-type-archive .products_grid article h2, .tax-product-type .products_grid article h2 {
+      font-weight: normal;
+      font-size: 16px; }
+  .post-type-archive .products_grid .entry-content, .tax-product-type .products_grid .entry-content {
+    border: 1px #e1e1e1 solid;
+    height: 50px;
+    margin: 0;
+    width: 100%;
+    position: relative; }
+  .post-type-archive .products_grid .product_info, .tax-product-type .products_grid .product_info {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .post-type-archive .products_grid .product_info h2, .post-type-archive .products_grid .product_info p, .tax-product-type .products_grid .product_info h2, .tax-product-type .products_grid .product_info p {
+      margin: 0;
+      display: inline; }
+    .post-type-archive .products_grid .product_info .dots, .tax-product-type .products_grid .product_info .dots {
+      display: inline-block;
+      overflow: hidden;
+      max-width: 20px;
+      line-height: 10px; }
 
 /*--------------------------------------------------------------
 # Media

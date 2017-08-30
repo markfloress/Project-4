@@ -51,8 +51,8 @@ get_header(); ?>
 		</div>
 
 		<div class='entry-content'>
-			<div>
-				<?php the_title('<h2 class="entry-title">' , '</h2>');?>
+			<div class='product_info'>
+				<?php the_title('<h2 class="entry-title">' , '<span class="dots">...............................</span></h2>');?>
 				<p><?php echo CFS()->get ('price');?></p>
 			</div>
 		</div>

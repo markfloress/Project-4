@@ -87,3 +87,13 @@ function inhabitent_archive_title( $title ) {
 }
 
 add_filter( "get_the_archive_title", "inhabitent_archive_title" );
+
+function inhabitent_limit_archive_posts( $query ) {
+    if  ($query->is_archive) {
+        $query->set('orderby','title');
+        $query->set('order','ASC');
+    }
+    return $query;
+}
+
+add_filter( "pre_get_posts", "inhabitent_limit_archive_posts" );
