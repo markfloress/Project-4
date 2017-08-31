@@ -1211,7 +1211,7 @@ body:not(.home):not(.page-id-73) .site-content {
 
 .post-type-archive .site-main, .tax-product-type .site-main {
   margin: 0 auto;
-  border-bottom: #e1e1e1 1px dashed; }
+  border-bottom: 1px dashed #c8c8c8; }
 
 .post-type-archive #content, .tax-product-type #content {
   display: block; }
@@ -1285,7 +1285,7 @@ body:not(.home):not(.page-id-73) .site-content {
     margin: 0;
     padding: 0;
     width: 200px;
-    border: 1px solid lightgray;
+    border: 1px solid #e1e1e1;
     background-color: #f4f4f4; }
 
 .error404 .widget-area {

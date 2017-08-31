@@ -2,7 +2,7 @@
 /**
  * Template part for displaying single posts.
  *
- * @package RED_Starter_Theme
+ * @package inhabitent_Theme
  */
 
 ?>
@@ -17,7 +17,7 @@
 			<div class='content_title'><?php the_title( '<h2 class="entry-title">', '</h2>' ); ?></div>
 
 			<div class="entry-meta">
-				<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
+				<?php inhabitent_posted_on(); ?> / <?php inhabitent_comment_count(); ?> / <?php inhabitent_posted_by(); ?>
 			</div><!-- .entry-meta -->
 		</div>
 	</header><!-- .entry-header -->
@@ -33,7 +33,7 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php red_starter_entry_footer(); ?>
+		<?php inhabitent_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 
 	<div class='post_social'>

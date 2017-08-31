@@ -2,7 +2,7 @@
 /**
  * The template for displaying all pages.
  *
- * @package RED_Starter_Theme
+ * @package inhabitent_Theme
  */
 
 get_header(); ?>
@@ -52,7 +52,7 @@ get_header(); ?>
           
       <div class='journal_post_text'>
         <div> 
-          <p><?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></p>
+          <p><?php inhabitent_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></p>
         </div>
         <a href="<? echo get_post_permalink() ?>"><?php the_title(); ?></a>
       </div>    <!-- end of journal post text -->

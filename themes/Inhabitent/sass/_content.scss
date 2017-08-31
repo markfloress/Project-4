@@ -585,7 +585,7 @@ body{     //all of page content//
 
 	.site-main{
 		margin: 0 auto;
-		border-bottom: $border_color 1px dashed;
+		border-bottom: 1px dashed #c8c8c8;
 	}
 
 	#content{
@@ -690,7 +690,7 @@ body{     //all of page content//
 			margin: 0;
 			padding: 0;
 			width: 200px;
-			border: 1px solid lightgray;
+			border: 1px solid #e1e1e1;
 			background-color: #f4f4f4;
 		}
 	}
