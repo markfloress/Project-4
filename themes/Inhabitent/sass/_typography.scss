@@ -72,3 +72,17 @@ mark, ins {
 big {
 	font-size: 125%;
 }
+
+.menu-main-menu-container a, h1, h2, h3, .read_entry_button a, .indiv_product_type a,
+ .journal_readme_button a, .journal_post_text a, .more_adv_button p, .footer_copyright, .entry-meta, 
+ .post_readmore_button a, .p2, label{
+	 font-family: $accent_fonts;
+ }
+
+ html body{
+	 font-family: $body_font_light;
+ }
+
+ .footer_hours span{
+	 font-family: $body_font_bold;
+ }
