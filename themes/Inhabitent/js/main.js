@@ -4,11 +4,10 @@
       $( '.search-field' ).focus();
       return false;
   });
- 
- $(document).on('click', function(event){
-      if (!$('.search-field').is( event.target )){
-         $( ".search-field" ).removeClass('active_search');
-      }
-  });
+
+  $( '.search-field' ).on('blur', function(){ 
+    $('.search-field').toggleClass('active_search'); 
+   });
  
  })( jQuery );
+
