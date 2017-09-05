@@ -54,11 +54,11 @@ get_header(); ?>
         <div> 
           <p><?php inhabitent_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></p>
         </div>
-        <a href="<? echo get_post_permalink() ?>"><?php the_title(); ?></a>
+        <a href="<?php echo get_post_permalink() ?>"><?php the_title(); ?></a>
       </div>    <!-- end of journal post text -->
 
       <div class='read_entry_button'>
-        <a href='<? echo get_post_permalink() ?>'>read entry</a>
+        <a href='<?php echo get_post_permalink() ?>'>read entry</a>
       </div>
     </div>    <!-- end of indiv div -->
 
