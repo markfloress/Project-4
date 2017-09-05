@@ -533,7 +533,7 @@ a {
     height: 30px;
     width: 0;
     transition: width ease-in-out 0.3s; }
-  .search-form fieldset .fast {
+  .search-form fieldset .active_search {
     width: 100px; }
 
 .search-form button {
